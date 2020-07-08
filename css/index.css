@@ -1,0 +1,682 @@
+    .wrapper {
+        /* background-image: url(../img/bj.png); */
+        padding-bottom: 2.5rem;
+        background: #54090C;
+    }
+    
+    .lineTip {
+        height: .25rem;
+        background: url(../img/bannar.png) no-repeat;
+        margin-bottom: .8rem;
+    }
+    
+    .reward {
+        background: url(../img/biankuang1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 1.6rem 0 2rem;
+        position: relative;
+        box-shadow: 0 .9rem 2rem .9rem rgba(2, 31, 65, 0.39);
+    }
+    
+    .rewardTitle {
+        margin-left: 2.7rem;
+        color: #Fff;
+        font-size: .65rem;
+    }
+    
+    .rewardCount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FfF;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: DIN Condensed Bold, DIN Condensed Bold-Bold;
+        line-height: 2.2rem;
+    }
+    
+    .rewardTitle2 span {
+        margin-left: 1.7rem;
+        color: #FfF;
+        font-size: .65rem;
+        display: inline-block;
+        width: 30%;
+    }
+    
+    .rewardCount2 span {
+        color: #FfF;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: DIN Condensed Bold, DIN Condensed Bold-Bold;
+        line-height: 2.4rem;
+        display: inline-block;
+        width: 30%;
+        margin-left: 1.7rem;
+    }
+    
+    .mycount {
+        background-image: linear-gradient(#874040, #58181B);
+        margin: .45rem;
+        border-radius: .3rem;
+        padding: 1rem 0 0.6rem;
+        position: relative;
+        top: -0.7rem;
+        box-shadow: 0 .9rem 2rem .9rem rgba(2, 31, 65, 0.39);
+    }
+    
+    .mycount .navBar {
+        position: absolute;
+        width: 5.5rem;
+        color: #741313;
+        font-size: .65rem;
+        top: -0.6rem;
+        left: -0.16rem;
+        padding: 0rem 0.4rem;
+        border-top: 1.05rem solid #fff;
+        border-right: .4rem solid transparent;
+        height: 1.2rem;
+    }
+    
+    .mycount .navBar div {
+        position: absolute;
+        top: -0.97rem;
+    }
+    
+    .sharelink {
+        background: url(../img/biankuang2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 2.2rem 1.7rem 3.1rem;
+        font-size: .6rem;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #f7dcbf;
+        position: relative;
+        box-shadow: 0 .9rem 2rem .9rem rgba(2, 31, 65, 0.39);
+    }
+    
+    .reward .navBar {
+        position: absolute;
+        width: 4.2rem;
+        color: #741313;
+        font-size: .65rem;
+        top: 0rem;
+        left: 0.3rem;
+        padding: 0rem 0.4rem;
+        border-top: 1.05rem solid #fff;
+        border-right: .4rem solid transparent;
+        height: 1.2rem;
+    }
+    
+    .reward .navBar div {
+        position: absolute;
+        top: -0.97rem;
+    }
+    
+    #full_feature {
+        margin: 0;
+        padding-top: 55%!important;
+    }
+    
+    .sw-next-prev {
+        display: none;
+    }
+    
+    .sw-bullet li {
+        background: #FF9A9A;
+        width: .4rem;
+        height: .4rem;
+    }
+    
+    .sw-bullet li.active {
+        background: #54090C;
+    }
+    
+    .sw-bullet {
+        bottom: 13%;
+    }
+    
+    .tibiBtn {
+        height: 1.65rem;
+        background: #fff;
+        border-radius: .2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #4D3920;
+        font-size: .9rem;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        font-weight: 400;
+        margin: .7rem 1.5rem;
+    }
+    
+    .inreward {
+        background-image: linear-gradient(#874040, #58181B);
+        margin: .45rem;
+        border-radius: .3rem;
+        padding: 1.2rem 0 1rem;
+        position: relative;
+        top: .4rem;
+        box-shadow: 0 .9rem 2rem .9rem rgba(2, 31, 65, 0.39);
+    }
+    
+    .inreward .navBar {
+        position: absolute;
+        width: 5.5rem;
+        color: #741313;
+        font-size: .65rem;
+        top: -0.6rem;
+        left: -0.16rem;
+        padding: 0rem 0.4rem;
+        border-top: 1.05rem solid #fff;
+        border-right: .4rem solid transparent;
+        height: 1.2rem;
+    }
+    
+    .inreward .navBar div {
+        position: absolute;
+        top: -0.97rem;
+    }
+    
+    .gzContent {
+        background: #161313;
+        width: 72%;
+        margin-left: 1.4rem;
+        border-radius: .6rem;
+        height: .93rem;
+        display: flex;
+        position: relative;
+        overflow: visible;
+        margin-left: 1.4rem;
+        padding: .18rem;
+        margin-top: 4px;
+    }
+    
+    .gzScale {
+        /* background: #5663ff; */
+        height: 100%;
+        border-radius: 1rem;
+        background-image: linear-gradient(#ECB99A, #E54A46, #D05C50);
+        position: relative;
+        /* overflow: visible; */
+        /* width: 60%; */
+    }
+    
+    .gzTxt {
+        position: absolute;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #0A0B11;
+        left: 50%;
+        height: 100%;
+        width: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-50%);
+        font-size: .5rem;
+    }
+    
+    .gzTxt2 {
+        position: absolute;
+        top: -1rem;
+        width: 1.35rem;
+        height: .9rem;
+        right: -0.6rem;
+        background-size: 100% 100%;
+        background-image: url(../img/percent.png);
+        display: none;
+        justify-content: center;
+        color: #0A0B11;
+        font-size: .5rem;
+    }
+    
+    .gzTxt3 {
+        position: absolute;
+        top: -2rem;
+        right: .5rem;
+        background-image: url(../img/percent.png);
+    }
+    
+    .gzBox1 div {
+        width: 49%;
+        display: inline-block;
+        margin-top: 1.3rem;
+    }
+    
+    .ethName {
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #fff;
+        font-size: 0.9rem;
+        margin-left: 1rem;
+    }
+    
+    .ethBtn,
+    .shareBtn {
+        background: #fff;
+        border-radius: .2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #4D080B;
+        font-size: 0.75rem;
+        display: inline-flex;
+        width: 3.3rem;
+        margin-left: .7rem;
+        height: 1.2rem;
+    }
+    
+    .ethBtnGray {
+        background: #666666;
+        border-radius: .2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #999999;
+        font-size: 0.75rem;
+        display: inline-flex;
+        width: 3.3rem;
+        margin-left: .7rem;
+        height: 1.2rem;
+    }
+    
+    .linkText {
+        width: 70%;
+        display: inline-block;
+        color: #fff;
+    }
+    
+    .shareBtn {
+        position: absolute;
+        right: 1.6rem;
+        top: 25%;
+        transform: translateY(42%);
+    }
+    
+    .gzDetail {
+        background-image: linear-gradient(#874040, #58181B);
+        margin: .45rem;
+        border-radius: .3rem;
+        padding: 1rem 0 2rem;
+        position: relative;
+        top: -0.6rem;
+        box-shadow: 0 .9rem 2rem .9rem rgba(2, 31, 65, 0.39);
+    }
+    
+    .gzDetail .navBar {
+        position: absolute;
+        width: 5.5rem;
+        color: #741313;
+        font-size: .65rem;
+        top: -0.6rem;
+        left: -0.16rem;
+        padding: 0rem 0.4rem;
+        border-top: 1.05rem solid #fff;
+        border-right: .4rem solid transparent;
+        height: 1.2rem;
+    }
+    
+    .gzDetail .navBar div {
+        position: absolute;
+        top: -0.97rem;
+    }
+    
+    .gzDetailTab {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        color: #fff;
+        padding: 0 1.3rem 0 0.5rem;
+        font-size: 0.65rem;
+    }
+    
+    .gzDetailTab div {
+        padding-bottom: 0.3rem;
+        z-index: 111;
+    }
+    
+    .gzDetailActive {
+        border-bottom: 2px solid #fff;
+    }
+    
+    .counttime {
+        height: 1.1rem;
+        background: #1a1d3f;
+        display: flex;
+        font-size: .55rem;
+        color: #575d9f;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: .4rem;
+        padding: 0 3.1rem 0 1.7rem;
+    }
+    
+    .gzDetailTxt {
+        display: flex;
+        font-size: .55rem;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #fff;
+        height: 1.5rem;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #46080B;
+        padding: 0 1rem 0 1rem;
+    }
+    
+    .myTeam {
+        background-image: linear-gradient(#874040, #58181B);
+        margin: .45rem;
+        border-radius: .3rem;
+        padding: 1rem 0 2rem;
+        position: relative;
+        top: 0.4rem;
+        box-shadow: 0 .9rem 2rem .9rem rgba(2, 31, 65, 0.39);
+    }
+    
+    .myTeam .navBar {
+        position: absolute;
+        width: 5.5rem;
+        color: #741313;
+        font-size: .65rem;
+        top: -0.6rem;
+        left: -0.16rem;
+        padding: 0rem 0.4rem;
+        border-top: 1.05rem solid #fff;
+        border-right: .4rem solid transparent;
+        height: 1.2rem;
+    }
+    
+    .myTeam .navBar div {
+        position: absolute;
+        top: -0.97rem;
+    }
+    
+    .myTeamTab {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0.7rem 0 0rem;
+        color: #fff;
+        font-size: 0.65rem;
+        margin-bottom: .3rem;
+    }
+    
+    .myTeamList {
+        display: flex;
+        font-size: .55rem;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #fff;
+        border-bottom: 1px solid #46080B;
+        padding: 0 .5rem 0 .4rem;
+        padding: 0.4rem 0rem 0.4rem .4rem;
+    }
+    
+    .myTeamList div:nth-child(1) {
+        width: 40%;
+    }
+    
+    .myTeamList div:nth-child(2) {
+        width: 27%;
+    }
+    
+    .myTeamList div:nth-child(3) {
+        width: 33%;
+        overflow:hidden;
+        word-break: break-all;
+    }
+    
+    .myTeamList div:nth-child(4) {
+        width: 16%;
+    }
+    
+    .myTeamList div:nth-child(5) {
+        width: 28%;
+    }
+    
+    .gzProcess {
+        background-image: linear-gradient(#874040, #58181B);
+        margin: .45rem;
+        border-radius: .3rem;
+        padding: 1rem 0 .2rem;
+        position: relative;
+        top: 1.4rem;
+        box-shadow: 0 .9rem 2rem .9rem rgba(2, 31, 65, 0.39);
+    }
+    
+    .gzProcess .navBar {
+        position: absolute;
+        width: 5.5rem;
+        color: #741313;
+        font-size: .65rem;
+        top: -0.6rem;
+        left: -0.16rem;
+        padding: 0rem 0.4rem;
+        border-top: 1.05rem solid #fff;
+        border-right: .4rem solid transparent;
+        height: 1.2rem;
+    }
+    
+    .gzProcess .navBar div {
+        position: absolute;
+        top: -0.97rem;
+    }
+    
+    .processList {
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #fff;
+        font-size: 0.75rem;
+        align-items: center;
+        display: flex;
+        padding: 1.35rem 0 1rem 1rem;
+        border-bottom: 1px solid #46080B;
+    }
+    
+    .processList:last-child {
+        border-bottom: none;
+    }
+    
+    .listContent {
+        background: #161313;
+        width: 44%;
+        margin-left: 1.4rem;
+        border-radius: .6rem;
+        height: .93rem;
+        display: inline-flex;
+        position: relative;
+        overflow: visible;
+        margin: 0 1rem 0 .5rem;
+        padding: .18rem;
+    }
+    
+    .listContentDiv {
+        background: #0A0B11;
+        width: 100%;
+        border-radius: .8rem;
+        z-index: 11;
+        height: 100%;
+    }
+    
+    .gzCountList {
+        height: 7rem;
+        overflow: auto;
+    }
+    
+    .gzCountList2 {
+        height: 7rem;
+        overflow: auto;
+    }
+    
+    .gzCountList3 {
+        height: 7rem;
+        overflow: auto;
+    }
+    
+    .gzCountList4 {
+        height: 7rem;
+        overflow: auto;
+    }
+    
+    .counttime {
+        height: 1.1rem;
+        background: #3F1A1A;
+        display: flex;
+        font-size: .55rem;
+        color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: .4rem;
+        padding: 0 3.1rem 0 1.7rem;
+    }
+    
+    .gzDetailTxt {
+        display: flex;
+        font-size: .55rem;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #fff;
+        height: 1.5rem;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #46080B;
+        padding: 0 1rem 0 1rem;
+    }
+    
+    .counttime2 {
+        height: 1.1rem;
+        background: #3F1A1A;
+        display: flex;
+        font-size: .55rem;
+        color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: .4rem;
+        padding: 0 3.1rem 0 .7rem;
+    }
+    
+    .gzDetailTxt2 {
+        display: flex;
+        font-size: .55rem;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #fff;
+        height: 1.5rem;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #0b0d1e;
+        padding: 0 1rem 0 1rem;
+    }
+    
+    .counttime3 {
+        height: 1.1rem;
+        background: #3F1A1A;
+        display: flex;
+        font-size: .55rem;
+        color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: .4rem;
+        padding: 0 3.4rem 0 .7rem;
+    }
+    
+    .gzDetailTxt3 {
+        display: flex;
+        font-size: .55rem;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #fff;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #0b0d1e;
+        padding: 0.3rem 0 0.3rem 1rem;
+    }
+    
+    .counttime4 {
+        height: 1.1rem;
+        background: #3F1A1A;
+        display: flex;
+        font-size: .55rem;
+        color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: .4rem;
+        padding: 0 3.4rem 0 .7rem;
+    }
+    
+    .gzDetailTxt4 {
+        display: flex;
+        font-size: .55rem;
+        font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+        color: #fff;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #0b0d1e;
+        padding: 0.3rem 0 0.3rem 1rem;
+    }
+    
+    .gzDetailTxt3 div:nth-child(1) {
+        width: 24%;
+    }
+    
+    .gzDetailTxt3 div:nth-child(2) {
+        width: 33%;
+        text-align: center;
+    }
+    
+    .gzDetailTxt3 div:nth-child(3) {
+        width: 38%;
+    }
+    
+    .gzDetailTxt4 div:nth-child(1) {
+        width: 24%;
+    }
+    
+    .gzDetailTxt4 div:nth-child(2) {
+        width: 33%;
+        text-align: center;
+    }
+    
+    .gzDetailTxt4 div:nth-child(3) {
+        width: 38%;
+    }
+    
+    .gzCountBox {
+        opacity: 1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 111;
+    }
+    
+    .gzCountBox2 {
+        /* display: none; */
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    .gzCountBox3 {
+        /* display: none; */
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    .gzCountBox4 {
+        /* display: none; */
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    .gzCountWrapper {
+        position: relative;
+        width: 100%;
+        height: 8rem;
+    }
+    
+    .teamListData {
+        height: 10rem;
+        overflow: auto;
+    }
